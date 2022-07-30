@@ -13,5 +13,5 @@ E方言是一款整合方言工具，服务用户依托方言在特定场景下�
 联系我们：
 
 - 邮箱 [edialect@edialect.top](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=ocTFyMDNxMLV4cTFyMDNxMLVj9XO0Q)
-- Github 组织 [e-dialect](https://github.com/e-dialect)
+- GitHub 组织 [e-dialect](https://github.com/e-dialect)
 - 兴化语记（莆仙方言公共服务包）QQ内测群 991397196 
