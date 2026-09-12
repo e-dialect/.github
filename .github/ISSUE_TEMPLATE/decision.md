@@ -1,6 +1,6 @@
 ---
 name: Decision
-about: 记录需要 Lead 或 Steering 选择的事项
+about: 记录需要 @aB0T-bupt、@L8848-Li 或 @lin594 选择的事项
 title: "decision: "
 labels: ""
 assignees: ""
@@ -10,7 +10,7 @@ assignees: ""
 
 ## Options
 
-## Lead recommendation
+## 负责人建议
 
 ## Reversibility
 

@@ -15,26 +15,26 @@ Steering 负责：
 - 在 Demo Gate / Release Gate 进行最终 Acceptance；
 - 协调只有 Steering 能取得的外部资源。
 
-Steering **不负责**日常项目管理、逐个分配叶子任务、审核每一个 PR，或替代产品 Lead 做可逆的执行判断。
+Steering **不负责**日常项目管理、逐个分配叶子任务、审核每一个 PR，或替代 @aB0T-bupt / @L8848-Li 做可逆的执行判断。
 
-### 产品 Lead
+### 产品负责人
 
-- 乡声集盒 Lead：张至钧（[@aB0T-bupt](https://github.com/aB0T-bupt)）
-- 万语校坊 Lead：李天元（[@L8848-Li](https://github.com/L8848-Li)）
+- 乡声集盒：张至钧（[@aB0T-bupt](https://github.com/aB0T-bupt)）
+- 万语校坊：李天元（[@L8848-Li](https://github.com/L8848-Li)）
 
-Lead 对本产品 Sprint Tracking 负责，把 Epic 拆为可认领的 Leaf，维护优先级、风险、证据与 Demo Moment，并组织日常 review。Epic 的 Assignee 表示 accountable owner，不表示由一人实现全部工作。
+@aB0T-bupt 与 @L8848-Li 分别对本产品 Sprint Tracking 负责，把 Epic 拆为可认领的 Leaf，维护优先级、风险、证据与 Demo Moment，并组织日常 review。Epic 的 Assignee 表示 accountable owner，不表示由一人实现全部工作。
 
 问题与决策的默认升级路径是：
 
 ```text
-Member → Product Lead → Steering
+Member → @aB0T-bupt / @L8848-Li → @lin594
 ```
 
-Shared 是 Project 中的协作 workstream，不是第三个直接团队，也不另设 Lead。Steering 默认只与两个产品 Lead 对接。
+Shared 是 Project 中的协作 workstream，不是第三个直接团队，也不另设负责人。@lin594 默认只与 @aB0T-bupt、@L8848-Li 对接。
 
 ## 2. Observation、Decision 与 Directive
 
-Steering 的一般意见默认是 **Observation**：Lead 记录并结合目标、证据和当前节奏判断，不立即改变 Sprint。
+Steering 的一般意见默认是 **Observation**：@aB0T-bupt / @L8848-Li 记录并结合目标、证据和当前节奏判断，不立即改变 Sprint。
 
 - **Observation**：建议、风险提示或待观察信号。
 - **Decision**：对已升级选项作出的选择。
@@ -53,8 +53,8 @@ Steering 的一般意见默认是 **Observation**：Lead 记录并结合目标�
 ## Options
 可行选项及各自代价。
 
-## Lead recommendation
-Lead 推荐项与理由。
+## 负责人建议
+@aB0T-bupt 或 @L8848-Li 的推荐项与理由。
 
 ## Reversibility
 是否可逆；回退成本与最后安全回退点。
@@ -66,11 +66,11 @@ YYYY-MM-DD HH:mm TZ
 截止时间未收到回复时将执行的动作。
 ```
 
-对可逆、未触发升级条件的事项，Lead 在期限后按推荐方案继续推进并留下记录。不要让普通执行事项因等待 Steering 无限停摆。
+对可逆、未触发升级条件的事项，@aB0T-bupt 或 @L8848-Li 在期限后按推荐方案继续推进并留下记录。不要让普通执行事项因等待 @lin594 无限停摆。
 
 ## 4. 必须升级的事项
 
-下列事项必须由 Lead 升级给 Steering，不适用默认推进：
+下列事项必须由 @aB0T-bupt 或 @L8848-Li 升级给 @lin594，不适用默认推进：
 
 - 品牌、公关表述或对外承诺；
 - 隐私、知情同意、未成年人、录音与历史媒体授权；
@@ -85,7 +85,7 @@ YYYY-MM-DD HH:mm TZ
 
 ## 5. 节奏与验收
 
-每个产品 Lead 每周异步更新一次：
+@aB0T-bupt 与 @L8848-Li 每周分别异步更新一次：
 
 ```text
 Done / Demo / Blocked / Next / Need Steering Decision
@@ -99,6 +99,6 @@ Done / Demo / Blocked / Next / Need Steering Decision
 
 - **R0**：低风险文档、样式或局部配置。Agent review + CI + 实际运行或视觉检查。
 - **R1**：常规逻辑。独立 agent review + tests + 作者走完完整用户旅程或目标行为；不强制第二名人类逐行 review。
-- **R2**：迁移、认证、权限、访客合并、同意/来源、删除、生产发布、破坏性导入等高风险变更。除 agent review 与测试外，必须有人类针对关键路径审查、staging/backup/rollback 证据和 Product Lead Gate。
+- **R2**：迁移、认证、权限、访客合并、同意/来源、删除、生产发布、破坏性导入等高风险变更。除 agent review 与测试外，必须有人类针对关键路径审查、staging/backup/rollback 证据，并由对应的 @aB0T-bupt 或 @L8848-Li 验收。
 
 任何风险等级都必须如实填写 `Not manually verified`，不得用“AI 已检查”代替实际证据。
