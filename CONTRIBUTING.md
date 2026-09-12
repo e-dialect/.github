@@ -1,14 +1,14 @@
 # 贡献指南
 
-感谢你考虑为 e-dialect 社区做出贡献！
+感谢你考虑为 E-Dialect 社区做出贡献！
 
-e-dialect 是一个面向方言保护与学习的开源社区项目群，欢迎来自世界各地的开发者、语言学家、教育者和爱好者参与其中。
+E-Dialect 是面向方言、地方语言、民族语言数字化及相关开放技术的工程协作社区，欢迎来自世界各地的开发者、语言学家、教育者和爱好者参与其中。
 
 本文件是 **e-dialect 组织级贡献指南**，适用于组织下的所有仓库。  
 
 每个仓库可以在自己的 README 中补充仓库特有的说明，但贡献流程与规范以本文件为准。
 
-E-Dialect 是开放 GitHub 工程社区；“乡声万语”是社区内的一项长期产品、技术与地方语言数字化计划。北京塔聚科技有限责任公司可承接部分商业合同、交付和付款，但不等同于社区或该计划。贡献与成果权利以仓库 `LICENSE`、CLA、具体合同和知识产权文件为准。
+E-Dialect 是开放 GitHub 工程社区；“乡声万语”是社区内的一项长期 initiative，不等同于整个 Organization。目前乡声万语相关商业合作、签约与交付由北京塔聚科技有限责任公司作为商业/法律承载主体；具体权利义务以实际合同、许可证、CLA 和知识产权文件为准。E-Dialect GitHub Organization 不等同于北京塔聚科技有限责任公司，也不等同于乡声万语。
 
 组织层面的角色、升级路径、Observation / Directive 区分和 Gate 机制见 [GOVERNANCE.md](./GOVERNANCE.md)。
 
@@ -59,9 +59,9 @@ e-dialect 项目采用 AGPL-3.0 协议。
 ### 1.0 Issue、负责人和任务粒度
 
 - 没有 Issue，不视为正式任务；没有 Assignee，不视为正式认领。
-- Tracking / Epic 汇总目标、依赖与 Gate，不直接作为实现任务认领。
-- 对应负责人（乡声集盒 @aB0T-bupt；万语校坊 @L8848-Li）将 Epic 拆为可验证的 Leaf；默认每人同时最多 `1 Primary + 1 Secondary`。
-- 能力分级使用 L0–L3。团队目标是让每位成员至少进入 L1；必要时缩小任务粒度，不降低验收标准。
+- Tracking / Epic 可以由 Accountable Owner 持有，表示对范围、拆分、风险、证据和 Gate 负责；不表示该人亲自实现全部工作。
+- Leaf 的 Assignee 表示当前实际执行人；没有 Assignee 的 Leaf 不视为已正式认领。
+- 具体项目负责人、并发任务限制、能力分级与 Demo cadence 以对应仓库或 initiative 文档为准。
 - 每个任务都应给出 Demo Moment、Evidence、Acceptance 和 `Not manually verified`。
 
 ### 1.1 认领 Issue

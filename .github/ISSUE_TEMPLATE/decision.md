@@ -1,6 +1,6 @@
 ---
 name: Decision
-about: 记录需要 @aB0T-bupt、@L8848-Li 或 @lin594 选择的事项
+about: 记录需要 Repository Maintainer、Project Owner 或 Steering 决策的事项
 title: "decision: "
 labels: ""
 assignees: ""
