@@ -17,10 +17,10 @@ Steering 负责：
 
 Steering **不负责**日常项目管理、逐个分配叶子任务、审核每一个 PR，或替代 @aB0T-bupt / @L8848-Li 做可逆的执行判断。
 
-### 产品负责人
+### 产品责任账号
 
-- 乡声集盒：张至钧（[@aB0T-bupt](https://github.com/aB0T-bupt)）
-- 万语校坊：李天元（[@L8848-Li](https://github.com/L8848-Li)）
+- [@aB0T-bupt](https://github.com/aB0T-bupt)：乡声集盒 Sprint Tracking 与 Epic 拆解
+- [@L8848-Li](https://github.com/L8848-Li)：万语校坊 Sprint Tracking 与 Epic 拆解
 
 @aB0T-bupt 与 @L8848-Li 分别对本产品 Sprint Tracking 负责，把 Epic 拆为可认领的 Leaf，维护优先级、风险、证据与 Demo Moment，并组织日常 review。Epic 的 Assignee 表示 accountable owner，不表示由一人实现全部工作。
 
