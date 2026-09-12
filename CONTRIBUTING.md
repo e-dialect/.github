@@ -8,6 +8,10 @@ e-dialect 是一个面向方言保护与学习的开源社区项目群，欢迎�
 
 每个仓库可以在自己的 README 中补充仓库特有的说明，但贡献流程与规范以本文件为准。
 
+E-Dialect 是开放 GitHub 工程社区；“乡声万语”是社区内的一项长期产品、技术与地方语言数字化计划。北京塔聚科技有限责任公司可承接部分商业合同、交付和付款，但不等同于社区或该计划。贡献与成果权利以仓库 `LICENSE`、CLA、具体合同和知识产权文件为准。
+
+组织层面的角色、升级路径、Observation / Directive 区分和 Gate 机制见 [GOVERNANCE.md](./GOVERNANCE.md)。
+
 ---
 
 ## 0. 许可证与贡献者协议
@@ -51,6 +55,14 @@ e-dialect 项目采用 AGPL-3.0 协议。
 ---
 
 ## 1. 贡献流程
+
+### 1.0 Issue、负责人和任务粒度
+
+- 没有 Issue，不视为正式任务；没有 Assignee，不视为正式认领。
+- Tracking / Epic 汇总目标、依赖与 Gate，不直接作为实现任务认领。
+- Lead 将 Epic 拆为可验证的 Leaf；默认每人同时最多 `1 Primary + 1 Secondary`。
+- 能力分级使用 L0–L3。团队目标是让每位成员至少进入 L1；必要时缩小任务粒度，不降低验收标准。
+- 每个任务都应给出 Demo Moment、Evidence、Acceptance 和 `Not manually verified`。
 
 ### 1.1 认领 Issue
 
@@ -144,6 +156,16 @@ git push origin <your-branch-name>
   - 或确认可以合并。
 
 - 请根据 Review 意见更新你的分支。新的提交会自动出现在该 PR 中。
+
+### 1.7 AI-assisted / AI-native 风险分级
+
+人工审查按风险聚焦，而不是按代码行数机械执行：
+
+- **R0 低风险**：agent review、CI，以及实际运行或视觉核对。
+- **R1 常规逻辑**：独立 agent review、测试，以及作者完整走通目标行为/用户旅程；不要求第二名人类逐行检查。
+- **R2 高风险**：迁移、认证、权限、访客合并、consent/provenance、删除、生产部署和破坏性导入等；还必须进行关键路径人工审查、staging/backup/rollback 验证并取得 Lead Gate。
+
+PR 必须说明 AI 用途、人工验证证据、未人工验证部分和已知风险。AI 的自述或“测试应该通过”不能作为证据。
 
 ---
 

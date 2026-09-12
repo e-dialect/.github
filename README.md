@@ -11,11 +11,12 @@
 | 文件 | 说明 |
 | :--- | :--- |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | **贡献指南**：详述了如何为 e-dialect 项目贡献代码，包括 Issue 认领、Fork/PR 流程、Git 提交规范、分支管理策略等。 |
+| [`GOVERNANCE.md`](./GOVERNANCE.md) | **治理说明**：定义 Steering、产品 Lead、升级路径、Demo Gate 与风险分级。 |
 | [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) | **行为准则**：定义了社区成员应遵守的行为规范，致力于营造一个开放、友好、包容的社区环境。 |
 | [`ICLA.md`](./ICLA.md) | **个人贡献者许可协议**：个人贡献者在提交代码时需同意的协议，保障项目知识产权清晰。 |
 | [`CCLA.md`](./CCLA.md) | **企业贡献者许可协议**：企业或机构作为贡献者时需签署的协议。 |
 
-> **💡 提示**：GitHub 会自动将本仓库中的 `CONTRIBUTING.md` 和 `CODE_OF_CONDUCT.md` 等文件作为组织下所有仓库的默认文件，除非某个仓库自己定义了同名文件。
+> **💡 提示**：GitHub 会自动将本仓库中的 `CONTRIBUTING.md`、Issue/PR 模板和 `CODE_OF_CONDUCT.md` 等文件作为组织下所有仓库的默认文件，除非某个仓库自己定义了同名文件。
 
 ## 🚀 如何参与贡献
 
