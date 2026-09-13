@@ -60,10 +60,42 @@ No repository in this audit is marked `FULL`.
 
 ## Pull requests and governance issues
 
-- Organization license and CLA governance: Draft [`.github PR #5`](https://github.com/e-dialect/.github/pull/5), intentionally unmerged pending `@lin594` R2 review.
+- Organization license and CLA governance: Draft
+  [`.github PR #5`](https://github.com/e-dialect/.github/pull/5), intentionally
+  unmerged. The PR author is `@lin594`, so GitHub does not permit requesting
+  `@lin594` as a reviewer of the same PR; an independent human R2 reviewer must
+  be designated before the PR is made ready for review or merged.
 - CLA installation, immutable hash, Gist revision, test PR, and real check name: [`.github issue #6`](https://github.com/e-dialect/.github/issues/6).
 - Future `django-template` deletion candidate, without a due date or deletion authorization: [`.github issue #4`](https://github.com/e-dialect/.github/issues/4).
 - `hinghwa-RAG` upstream license/permission request: [`hinghwa-RAG issue #1`](https://github.com/e-dialect/hinghwa-RAG/issues/1).
+
+## Execution controls verified on 2026-09-13
+
+- [`xiangsheng-box PR #447`](https://github.com/e-dialect/xiangsheng-box/pull/447)
+  added path-level CODEOWNERS and was squash-merged as
+  `3c3ce9076b7c56d47b531e9593d26e1e1e62d1bc`. Its protected `main`
+  requires six strict status checks, stale-review dismissal, CODEOWNERS review,
+  administrator enforcement, and conversation resolution; force pushes and
+  branch deletion are disabled.
+- [`wanyu-proofreader PR #98`](https://github.com/e-dialect/wanyu-proofreader/pull/98)
+  added path-level CODEOWNERS and was squash-merged as
+  `5080280a1edb416e0a6fd7c8832b197531da7bcb`. Its protected `main`
+  requires eleven strict status checks with the same review and branch-safety
+  controls.
+- Organization base repository permission is `none`. Members cannot create
+  organization public or private repositories. At verification time, all six
+  private repositories were archived, so no active private repository relied
+  on inherited organization-wide read access.
+- [Project #7](https://github.com/orgs/e-dialect/projects/7) remains public and
+  open. `@aB0T-bupt` and `@L8848-Li` have direct `WRITER` access through
+  GitHub's native project-collaborator role.
+- `code-contributing-practice` is public and active (not archived), retains
+  GPL-2.0, and is the sole current Git/GitHub practice entry after the archived
+  `Git-Practice` migration.
+- Restricting GitHub App installation to organization owners remains a manual
+  organization-settings action because the audited public REST and GraphQL
+  organization interfaces do not expose that member-privilege toggle. CLA
+  Assistant installation remains blocked on governance approval in any case.
 
 Repository-specific license PR links will be added only after the organization
 governance draft receives its required human confirmation. Their absence here
