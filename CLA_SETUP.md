@@ -44,8 +44,11 @@ organization actually contributes:
    usernames;
 4. the maintainer records only the minimum private coverage information;
 5. the covered accounts are added to the applicable CLA exemption or
-   allowlist; and
-6. a test pull request confirms that a covered account is not incorrectly
+   allowlist;
+6. when an account ceases to be an Authorized Contributor, it is removed from
+   the exemption for future Contributions without changing the status of
+   Contributions submitted and accepted during valid CCLA coverage; and
+7. a test pull request confirms that a covered account is not incorrectly
    required to sign the individual ICLA.
 
 The minimum private record is the Corporate Contributor legal name, CCLA
@@ -59,6 +62,8 @@ creates no rights; the countersigned CCLA is the source of the license.
 - Organization: `e-dialect`
 - Service: <https://cla-assistant.io/>
 - GitHub App: <https://github.com/apps/cla-assistant>
+- Before installation, restrict GitHub App installation in the organization's
+  member-privilege settings to Organization Owners.
 - Required custom fields (minimum):
   - legal name;
   - current email address;
