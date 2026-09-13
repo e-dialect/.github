@@ -38,13 +38,21 @@ in writing as “Not a Contribution” is excluded.
 拥有或控制的原创作品。1.0 版覆盖过去、签署时及未来提交的此类贡献。以书面方式
 明确标注为“非贡献”的材料不在此范围内。
 
-Third-party code and separately governed data, recordings, corpora, model
-weights, trademarks, logos, or other assets do not become Contributions unless
-the Corporate Contributor owns or controls the necessary rights and clearly
-states their inclusion.
+For the avoidance of doubt, this agreement does **not** govern or license
+datasets, corpora, dictionary or lexical content, fieldwork materials,
+recordings, speaker or voice samples, biometric or personal data, linguistic
+annotations submitted as data assets, model weights, generated media or data
+artifacts, or trademarks and brand assets—even when the Corporate Contributor
+owns or controls that material. Such material is included only when a separate
+written asset or data agreement expressly incorporates it. Third-party
+material also does not become a Contribution merely because it appears in a
+submission.
 
-第三方代码及单独治理的数据、录音、语料、模型权重、商标、Logo 或其他资产，不会
-自动成为贡献；只有机构贡献者拥有或控制必要权利并明确声明纳入时才属于贡献。
+为免疑义，本协议**不治理或许可**数据集、语料库、词典或词汇内容、田野材料、录音、
+说话人或声音样本、生物识别或个人数据、作为数据资产提交的语言学标注、模型权重、
+生成的媒体或数据产物，以及商标和品牌资产；即使机构贡献者拥有或控制这些材料，也
+不自动纳入本协议。只有另行签署的数据或资产书面协议明确纳入时，这些材料才进入相应
+授权。第三方材料也不会仅因出现在提交中而成为贡献。
 
 ## 3. Copyright license / 版权许可
 

@@ -15,7 +15,10 @@
 | [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) | **行为准则**：定义了社区成员应遵守的行为规范，致力于营造一个开放、友好、包容的社区环境。 |
 | [`ICLA.md`](./ICLA.md) | **个人贡献者许可协议**：个人贡献者在提交代码时需同意的协议，保障项目知识产权清晰。 |
 | [`CCLA.md`](./CCLA.md) | **企业贡献者许可协议**：企业或机构作为贡献者时需签署的协议。 |
+| [`CLA_MIGRATION.md`](./CLA_MIGRATION.md) | **CLA 迁移**：说明历史贡献、既有开源授权与替代商业许可的权利链边界。 |
+| [`CLA_PRIVACY.md`](./CLA_PRIVACY.md) | **签署者隐私**：说明 CLA Assistant 数据字段、用途、访问控制和请求渠道。 |
 | [`LICENSING.md`](./LICENSING.md) | **许可证政策**：原创代码、第三方内容、数据资产与替代许可的组织级边界。 |
+| [`ASSET_AND_DATA_POLICY.md`](./ASSET_AND_DATA_POLICY.md) | **资产与数据政策**：区分代码、语料、录音、模型、个人数据与品牌授权。 |
 | [`OPEN_SOURCE_COMMITMENT.md`](./OPEN_SOURCE_COMMITMENT.md) | **开源承诺**：说明核心公共主线与替代许可并行的长期原则。 |
 | [`TRADEMARKS.md`](./TRADEMARKS.md) | **品牌边界**：说明开源许可证不自动授予商标与 Logo 使用权。 |
 | [`LICENSE_AUDIT_2026-09.md`](./LICENSE_AUDIT_2026-09.md) | **许可证审计**：记录本轮逐仓判断、状态与后续事项。 |

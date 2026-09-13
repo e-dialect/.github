@@ -36,12 +36,20 @@ as “Not a Contribution” is excluded.
 文档、测试、设计和翻译。签署 1.0 版后，本协议覆盖你过去、签署时及未来有意提交的
 此类贡献。你以书面方式明确标注为“非贡献”的材料不在此范围内。
 
-Third-party code, data, recordings, corpora, model weights, trademarks, logos,
-and other material that you do not have the right to license are not made your
-Contribution merely because they appear in a submission.
+For the avoidance of doubt, this agreement does **not** govern or license
+datasets, corpora, dictionary or lexical content, fieldwork materials,
+recordings, speaker or voice samples, biometric or personal data, linguistic
+annotations submitted as data assets, model weights, generated media or data
+artifacts, or trademarks and brand assets—even when you own that material.
+Such material is included only when a separate written asset or data agreement
+expressly incorporates it. Third-party material also does not become your
+Contribution merely because it appears in a submission.
 
-第三方代码、数据、录音、语料、模型权重、商标、Logo，以及你无权许可的其他材料，
-不会仅因出现在提交中而成为你的贡献。
+为免疑义，本协议**不治理或许可**数据集、语料库、词典或词汇内容、田野材料、录音、
+说话人或声音样本、生物识别或个人数据、作为数据资产提交的语言学标注、模型权重、
+生成的媒体或数据产物，以及商标和品牌资产；即使你拥有这些材料，也不自动纳入本
+协议。只有另行签署的数据或资产书面协议明确纳入时，这些材料才进入相应授权。第三方
+材料也不会仅因出现在提交中而成为你的贡献。
 
 ## 3. Copyright license / 版权许可
 
@@ -116,15 +124,15 @@ itself, does **not** constitute acceptance of this agreement.
 
 First-time contributors will be asked by the configured CLA service to accept
 this version explicitly. Acceptance records may include legal name, current
-email address, current GitHub username, agreement version, timestamp, and the
-GitHub-authenticated identity. The hosted CLA service may store those records
-in Microsoft Azure infrastructure in Europe; maintainers may export records
-for governance and audit purposes.
+email address, agreement version, timestamp, and the GitHub-authenticated
+identity and username. The GitHub username is taken from the authenticated
+signature record rather than requested again as a custom field. Signer-data
+handling is described in [`CLA_PRIVACY.md`](./CLA_PRIVACY.md).
 
 首次贡献者将由已配置的 CLA 服务提示显式接受本版本。签署记录可以包括法定姓名、
-当前邮箱、当前 GitHub 用户名、协议版本、时间和经 GitHub 验证的身份。托管 CLA
-服务可能在欧洲的 Microsoft Azure 基础设施中保存记录；维护者可以为治理和审计
-导出记录。
+当前邮箱、协议版本、时间，以及经 GitHub 验证的身份和用户名。GitHub 用户名从经
+验证的签署记录取得，不要求签署者再次作为自定义字段手填。签署者数据的处理方式见
+[`CLA_PRIVACY.md`](./CLA_PRIVACY.md)。
 
 ## 7. Signature information / 签署信息
 
@@ -133,7 +141,7 @@ signature of this agreement. The signer provides:
 
 - Legal name / 法定姓名
 - Current email / 当前邮箱
-- Current GitHub username / 当前 GitHub 用户名
+- GitHub-authenticated username (recorded automatically) / 经 GitHub 验证并自动记录的用户名
 - Acceptance date and time / 接受日期与时间
 - Agreement version / 协议版本：1.0
 
