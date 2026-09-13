@@ -23,18 +23,41 @@ Technology Co., Ltd.（北京塔聚科技有限责任公司）**.
 e-dialect 是开放协作社区。为使版权管理、持续开源发布与替代许可具有明确法律主体，
 本协议中的“项目管理方”是 **北京塔聚科技有限责任公司**。
 
+“Covered Repository” means an e-dialect repository that the Project Manager
+has expressly configured to use this version of the ICLA at the time the
+relevant Contribution is submitted or, for a past Contribution submitted
+before this version was activated, at the time you accept this version. The
+repository list is operational configuration and is not incorporated into
+this agreement.
+
+“适用仓库”是指在相关贡献提交时，由项目管理方明确配置为适用本版本 ICLA 的
+e-dialect 仓库；对于本版本启用前提交的历史贡献，则以你接受本版本时的配置为准。
+具体仓库名单属于执行配置，不构成本协议文本的一部分。
+
+The Project Manager role is limited to managing rights in software
+Contributions under this code CLA, continuing open-source publication, and
+maintaining the rights chain for alternative licensing. That role does not by
+itself transfer or grant any ownership, license, or other right in data,
+corpora, recordings, models, personal information, or brand assets expressly
+excluded by this agreement. Rights in those assets can arise only from a
+separate written agreement.
+
+项目管理方身份仅用于本代码 CLA 下的软件贡献权利管理、持续开源发布和替代许可
+权利链管理。该身份本身不转移或授予本协议明确排除的数据、语料、录音、模型、个人
+信息或品牌资产的所有权、许可或其他权利；此类权利只能来自单独的书面协议。
+
 ## 2. Contribution / 贡献
 
 “Contribution” means an original work of authorship that you intentionally
-submit for inclusion in an e-dialect repository covered by this agreement,
-including source code, documentation, tests, designs, and translations. If you
-sign Version 1.0, it covers such Contributions intentionally submitted by you
-in the past, at signing, and in the future. Material clearly marked in writing
-as “Not a Contribution” is excluded.
+submit for inclusion in a Covered Repository, including source code,
+documentation, tests, designs, and software and documentation translations.
+If you sign Version 1.0, it covers such Contributions intentionally submitted
+by you in the past, at signing, and in the future. Material clearly marked in
+writing as “Not a Contribution” is excluded.
 
-“贡献”是指你有意提交、拟纳入本协议所覆盖 e-dialect 仓库的原创作品，包括源代码、
-文档、测试、设计和翻译。签署 1.0 版后，本协议覆盖你过去、签署时及未来有意提交的
-此类贡献。你以书面方式明确标注为“非贡献”的材料不在此范围内。
+“贡献”是指你有意提交、拟纳入适用仓库的原创作品，包括源代码、文档、测试、设计，
+以及软件和文档翻译。签署 1.0 版后，本协议覆盖你过去、签署时及未来有意提交的此类
+贡献。你以书面方式明确标注为“非贡献”的材料不在此范围内。
 
 For the avoidance of doubt, this agreement does **not** govern or license
 datasets, corpora, dictionary or lexical content, fieldwork materials,
@@ -149,3 +172,11 @@ If you do not understand or cannot make the representations above, do not sign
 or submit material for inclusion until the issue is resolved.
 
 如果你不理解或无法作出上述声明，请先解决相关问题，不要签署或提交拟纳入项目的材料。
+
+## 8. Languages / 文本语言
+
+The Chinese and English texts are intended to express the same terms. If an
+inconsistency arises from translation, wording, or interpretation, the Chinese
+text controls.
+
+中英文文本旨在表达相同内容。如因翻译、措辞或解释产生不一致，以中文文本为准。

@@ -6,11 +6,11 @@
 **Effective date / 生效日期：2026-09-13**
 
 This agreement is for a company or other organization whose personnel submit
-Contributions to covered e-dialect repositories. It is not a copyright
+Contributions to Covered Repositories as defined below. It is not a copyright
 assignment: the organization and its personnel retain the copyrights they own.
 
-本协议适用于由公司或其他机构人员向本协议所覆盖 e-dialect 仓库提交贡献的情形。
-本协议不是版权转让；机构及其人员保留各自拥有的版权。
+本协议适用于由公司或其他机构人员向下文定义的适用仓库提交贡献的情形。本协议不是
+版权转让；机构及其人员保留各自拥有的版权。
 
 ## 1. Parties and authority / 协议主体与授权
 
@@ -26,17 +26,40 @@ e-dialect 是开放协作社区。本协议中的“项目管理方”是**北�
 下方签署的公司或机构（“机构贡献者”）声明，其签署代表有权签署本协议并作出本协议
 授权。机构贡献者应提供并维护有权代表其提交贡献的人员名单（“授权贡献者”）。
 
+“Covered Repository” means an e-dialect repository that the Project Manager
+has expressly configured to use this version of the CCLA at the time the
+relevant Contribution is submitted or, for a past Contribution submitted
+before this version was activated, when both parties sign this version. The
+repository list is operational configuration and is not incorporated into
+this agreement.
+
+“适用仓库”是指在相关贡献提交时，由项目管理方明确配置为适用本版本 CCLA 的
+e-dialect 仓库；对于本版本启用前提交的历史贡献，则以双方签署本版本时的配置为准。
+具体仓库名单属于执行配置，不构成本协议文本的一部分。
+
+The Project Manager role is limited to managing rights in software
+Contributions under this code CLA, continuing open-source publication, and
+maintaining the rights chain for alternative licensing. That role does not by
+itself transfer or grant any ownership, license, or other right in data,
+corpora, recordings, models, personal information, or brand assets expressly
+excluded by this agreement. Rights in those assets can arise only from a
+separate written agreement.
+
+项目管理方身份仅用于本代码 CLA 下的软件贡献权利管理、持续开源发布和替代许可
+权利链管理。该身份本身不转移或授予本协议明确排除的数据、语料、录音、模型、个人
+信息或品牌资产的所有权、许可或其他权利；此类权利只能来自单独的书面协议。
+
 ## 2. Contribution / 贡献
 
 “Contribution” means an original work intentionally submitted by an Authorized
-Contributor for inclusion in a covered e-dialect repository and owned or
-controlled by the Corporate Contributor. Version 1.0 covers such Contributions
-submitted in the past, at signing, and in the future. Material clearly marked
-in writing as “Not a Contribution” is excluded.
+Contributor for inclusion in a Covered Repository and owned or controlled by
+the Corporate Contributor. Version 1.0 covers such Contributions submitted in
+the past, at signing, and in the future. Material clearly marked in writing as
+“Not a Contribution” is excluded.
 
-“贡献”是指授权贡献者有意提交、拟纳入本协议所覆盖 e-dialect 仓库，且由机构贡献者
-拥有或控制的原创作品。1.0 版覆盖过去、签署时及未来提交的此类贡献。以书面方式
-明确标注为“非贡献”的材料不在此范围内。
+“贡献”是指授权贡献者有意提交、拟纳入适用仓库，且由机构贡献者拥有或控制的原创
+作品。1.0 版覆盖过去、签署时及未来提交的此类贡献。以书面方式明确标注为“非贡献”
+的材料不在此范围内。
 
 For the avoidance of doubt, this agreement does **not** govern or license
 datasets, corpora, dictionary or lexical content, fieldwork materials,
@@ -119,7 +142,37 @@ reviewed manually by the Project Manager.
 必须重新签署。Commit 或 Pull Request 不构成签署或接受。本 CCLA 通过双方签署的
 电子或纸质文本订立，由项目管理方人工审核。
 
-## 7. Signature record / 签署记录
+## 7. CCLA-covered contributor administration / CCLA 授权贡献者管理
+
+1. This CCLA must be signed by both the Corporate Contributor and the Project
+   Manager. / 本 CCLA 必须由机构贡献者和项目管理方双方签署。
+2. The Corporate Contributor provides the GitHub usernames of its Authorized
+   Contributors. / 机构贡献者提供授权贡献者的 GitHub 用户名。
+3. After manual verification, the Project Manager may add those accounts to
+   the applicable CLA check exemption or allowlist. This records CCLA coverage;
+   it does not mean that the individuals signed the ICLA. / 项目管理方人工核对
+   后，可将相应账号加入适用 CLA 检查的免签名单。该操作仅表示有效 CCLA 覆盖，
+   不表示个人已经签署 ICLA。
+4. An exemption or allowlist creates no intellectual-property license. The
+   signed CCLA is always the source of the license. / 免签或白名单本身不产生任何
+   知识产权授权，授权始终来自已经签署的 CCLA。
+5. When a person ceases to be an Authorized Contributor, the Corporate
+   Contributor must notify the Project Manager and the account must be removed
+   from the exemption for future Contributions. Removal does not affect a
+   Contribution submitted and accepted while valid CCLA coverage was in
+   effect. / 授权贡献者退出名单时，机构贡献者应通知项目管理方，并应将相应账号从
+   未来贡献的免签名单中移除。该移除不影响其在有效 CCLA 覆盖期间已经提交并被接受
+   的贡献。
+
+The Project Manager will keep only the minimum private record needed to verify
+CCLA coverage. No public employee registry is required, and employee legal
+names, email addresses, or complete signing records must not be published on
+GitHub.
+
+项目管理方仅私下保存核验 CCLA 覆盖所需的最少记录。无需建设公开员工登记系统，
+不得在 GitHub 公开员工真实姓名、邮箱或完整签署记录。
+
+## 8. Signature record / 签署记录
 
 **Corporate Contributor / 机构贡献者**
 
@@ -142,7 +195,16 @@ reviewed manually by the Project Manager.
 
 **Authorized Contributors / 授权贡献者**
 
-Attach a maintained list containing each contributor’s legal name, current
-email address, and current GitHub username.
+Attach or separately provide a maintained list of current GitHub usernames.
+The list is access-controlled and is not published on GitHub.
 
-附上持续维护的名单，列明每位授权贡献者的法定姓名、当前邮箱和当前 GitHub 用户名。
+附上或另行提供持续维护的当前 GitHub 用户名名单。该名单应受访问控制，不在 GitHub
+公开。
+
+## 9. Languages / 文本语言
+
+The Chinese and English texts are intended to express the same terms. If an
+inconsistency arises from translation, wording, or interpretation, the Chinese
+text controls.
+
+中英文文本旨在表达相同内容。如因翻译、措辞或解释产生不一致，以中文文本为准。
