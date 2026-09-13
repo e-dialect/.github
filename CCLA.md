@@ -37,17 +37,18 @@ this agreement.
 e-dialect 仓库；对于本版本启用前提交的历史贡献，则以双方签署本版本时的配置为准。
 具体仓库名单属于执行配置，不构成本协议文本的一部分。
 
-The Project Manager role is limited to managing rights in software
-Contributions under this code CLA, continuing open-source publication, and
-maintaining the rights chain for alternative licensing. That role does not by
-itself transfer or grant any ownership, license, or other right in data,
-corpora, recordings, models, personal information, or brand assets expressly
-excluded by this agreement. Rights in those assets can arise only from a
-separate written agreement.
+The Project Manager role is limited to managing rights in software and related
+engineering Contributions under this code CLA, continuing open-source
+publication, and maintaining the rights chain for alternative licensing. That
+role does not by itself transfer or grant any ownership, license, or other
+right in data, corpora, recordings, models, personal information, or brand
+assets expressly excluded by this agreement. Rights in those assets can arise
+only from a separate written agreement.
 
-项目管理方身份仅用于本代码 CLA 下的软件贡献权利管理、持续开源发布和替代许可
-权利链管理。该身份本身不转移或授予本协议明确排除的数据、语料、录音、模型、个人
-信息或品牌资产的所有权、许可或其他权利；此类权利只能来自单独的书面协议。
+项目管理方身份仅用于本代码 CLA 下的软件及相关工程贡献权利管理、持续开源发布和
+替代许可权利链管理。该身份本身不转移或授予本协议明确排除的数据、语料、录音、
+模型、个人信息或品牌资产的所有权、许可或其他权利；此类权利只能来自单独的书面
+协议。
 
 ## 2. Contribution / 贡献
 
@@ -91,9 +92,9 @@ and relicensing under an alternative commercial or proprietary license. It
 does not revoke rights already granted to the public under an open-source
 release.
 
-机构贡献者向项目管理方授予永久、全球、非独占、免费且无版税的版权许可；在适用
-法律允许的范围内并受本协议约束，该许可原则上不可撤销。许可包括复制、制作和使用
-衍生作品、公开展示或表演（如适用）、分发或以其他方式提供，以及再许可和重许可。
+机构贡献者向项目管理方授予永久、全球、非独占、免费且无版税的版权许可。该许可在
+适用法律允许的范围内不可撤销，并受本协议约束。许可包括复制、制作和使用衍生作品、
+公开展示或表演（如适用）、分发或以其他方式提供，以及再许可和重许可。
 项目管理方可以按当前或未来项目选择的开源许可证发布贡献，也可以按替代商业或专有
 许可提供贡献；公众已通过开源版本获得的权利不因此撤销。
 
@@ -108,8 +109,9 @@ necessarily infringed by the Contribution alone or by its combination with the
 project to which it was submitted. No patent ownership is transferred.
 
 机构贡献者向项目管理方及包含贡献的软件接收者授予永久、全球、非独占、免费且无版税
-的必要专利许可。该许可仅覆盖机构贡献者拥有或控制并有权许可，且必然因贡献本身或
-其与所提交项目的组合而被实施的专利权利要求。本条不转让专利所有权。
+的专利许可，使其可以制造、委托制造、使用、许诺销售、销售、进口和以其他方式转移
+该软件。该许可仅适用于机构贡献者拥有或控制并有权许可，且必然因贡献本身或贡献与
+所提交项目的组合而被实施的专利权利要求。本条不转让任何专利所有权。
 
 ## 5. Corporate representations / 机构声明
 

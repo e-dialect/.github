@@ -50,11 +50,12 @@ in SAP's privacy statement, including to
 Deletion or loss of a signature record may prevent the project from verifying
 the affected contributor's eligibility for future merges or alternative
 licensing; it does not revoke an open-source license already granted to the
-public. Beijing Taju Technology Co., Ltd.'s controller and retention
-responsibilities for exported copies must be confirmed by professional legal
-review before production activation. This notice therefore does not promise
-that all processing or transfers are confined exclusively to the European
-Union.
+public. Beijing Taju Technology Co., Ltd. is responsible for appropriate access
+control and retention of project-held exports. Professional legal review
+should be obtained before personal-data processing materially scales,
+sensitive personal information is introduced, or the records become material
+to commercial licensing or dispute handling. This notice does not promise that
+all processing or transfers are confined exclusively to the European Union.
 
 ---
 
@@ -79,5 +80,7 @@ Issue、公开表格或公开补签名单中披露签署者实名、邮箱或签
 [edialect@edialect.top](mailto:edialect@edialect.top)；涉及托管服务的请求也可按 SAP
 隐私声明联系 [cla_assistant@sap.com](mailto:cla_assistant@sap.com)。删除或遗失记录
 可能使项目无法验证该贡献者后续 PR 或替代许可资格，但不会撤销公众已经取得的开源
-权利。北京塔聚对导出副本承担的数据控制和保留责任，应在生产启用前交由专业法律
-审查确认；本文不承诺所有处理或跨境传输仅发生在欧盟境内。
+权利。北京塔聚科技有限责任公司应对项目自行导出的签署记录实施适当的访问控制与
+保留管理。当个人数据处理规模显著扩大、涉及敏感个人信息，或相关记录开始实质支撑
+商业授权或争议处理时，应取得专业法律意见。本文不承诺所有处理或跨境传输仅发生在
+欧盟境内。

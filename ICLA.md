@@ -34,17 +34,18 @@ this agreement.
 e-dialect 仓库；对于本版本启用前提交的历史贡献，则以你接受本版本时的配置为准。
 具体仓库名单属于执行配置，不构成本协议文本的一部分。
 
-The Project Manager role is limited to managing rights in software
-Contributions under this code CLA, continuing open-source publication, and
-maintaining the rights chain for alternative licensing. That role does not by
-itself transfer or grant any ownership, license, or other right in data,
-corpora, recordings, models, personal information, or brand assets expressly
-excluded by this agreement. Rights in those assets can arise only from a
-separate written agreement.
+The Project Manager role is limited to managing rights in software and related
+engineering Contributions under this code CLA, continuing open-source
+publication, and maintaining the rights chain for alternative licensing. That
+role does not by itself transfer or grant any ownership, license, or other
+right in data, corpora, recordings, models, personal information, or brand
+assets expressly excluded by this agreement. Rights in those assets can arise
+only from a separate written agreement.
 
-项目管理方身份仅用于本代码 CLA 下的软件贡献权利管理、持续开源发布和替代许可
-权利链管理。该身份本身不转移或授予本协议明确排除的数据、语料、录音、模型、个人
-信息或品牌资产的所有权、许可或其他权利；此类权利只能来自单独的书面协议。
+项目管理方身份仅用于本代码 CLA 下的软件及相关工程贡献权利管理、持续开源发布和
+替代许可权利链管理。该身份本身不转移或授予本协议明确排除的数据、语料、录音、
+模型、个人信息或品牌资产的所有权、许可或其他权利；此类权利只能来自单独的书面
+协议。
 
 ## 2. Contribution / 贡献
 
@@ -92,10 +93,10 @@ current or future open-source license and to offer it under an alternative
 commercial or proprietary license. This grant does not revoke rights already
 received by the public under an open-source release.
 
-你保留版权。你向项目管理方授予一项永久、全球、非独占、免费且无版税的版权许可；
-在适用法律允许的范围内并受本协议约束，该许可原则上不可撤销。许可包括复制贡献，
-制作、使用、公开展示或公开表演衍生作品（如适用），分发或以其他方式提供贡献及其
-衍生作品，以及对上述权利进行再许可和重许可。
+你保留版权。你向项目管理方授予一项永久、全球、非独占、免费且无版税的版权许可。
+该许可在适用法律允许的范围内不可撤销，并受本协议约束。许可包括复制贡献，制作、
+使用、公开展示或公开表演衍生作品（如适用），分发或以其他方式提供贡献及其衍生
+作品，以及对上述权利进行再许可和重许可。
 
 该授权包括按项目当前或未来选择的开源许可证发布贡献，以及按替代商业或专有许可
 提供贡献。该授权不撤销公众已经通过开源版本取得的权利。

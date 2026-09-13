@@ -38,7 +38,7 @@ license.
 ## Current operational rule
 
 Until e-dialect publishes a separate contribution or license agreement for the
-relevant asset category, an ordinary software pull request should not directly
+relevant asset category, an ordinary software pull request must not directly
 add the asset itself when it is a dataset, corpus, dictionary or lexical
 content, fieldwork material, recording, speaker or voice sample, biometric or
 personal data, linguistic annotation submitted as a dataset, model weight, or
@@ -88,7 +88,7 @@ because it came from a community contribution.
 
 ## 当前执行规则
 
-在 e-dialect 针对相关资产发布单独的贡献或授权协议以前，普通软件 Pull Request 不应
+在 e-dialect 针对相关资产发布单独的贡献或授权协议以前，普通软件 Pull Request 不得
 直接新增以下资产本体：数据集、语料库、词典或词汇内容、田野材料、录音、说话人或
 声音样本、生物识别或个人数据、作为数据集提交的语言学标注、模型权重，以及拟作为
 可复用数据集的生成媒体或数据。
