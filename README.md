@@ -37,17 +37,17 @@
 ## 📜 许可证
 
 ### 代码仓库许可证
-e-dialect 组织下的各代码仓库采用独立的许可证，具体请查看各仓库根目录的 `LICENSE` 文件。主要代码仓库默认采用 **GNU Affero General Public License v3.0 (AGPL-3.0)** 或其他 OSI 认证的开源协议。
+E-Dialect 各仓库的许可证相互独立，以该仓库根目录的 `LICENSE` 文件为唯一准据。没有根目录 `LICENSE` 时，不得推定该仓库采用 AGPL、其它开源许可证或授予了额外使用权。
 
 ### 本仓库内容
-本仓库（`.github`）中的文档和配置文件（如 `CONTRIBUTING.md`、`CODE_OF_CONDUCT.md` 等）采用 **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** 协议发布。你可以自由地分享和改编这些内容，但必须注明出处。
+本仓库目前没有根目录 `LICENSE`。在许可方案经 [GOV-LEGAL #3](https://github.com/e-dialect/.github/issues/3) 确认并以根目录 `LICENSE` 落地前，不应仅依据 README 推定 CC BY 4.0 或其它额外复用授权。
 
 ## 📮 联系我们
 
 如果你有任何问题或建议，可以通过以下方式联系我们：
 
 *   **GitHub Issues**：在相关仓库创建 Issue，并打上 `meta` 或 `community` 标签。
-*   **电子邮件**：[edialect@edialect.top](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=ocTFyMDNxMLV4cTFyMDNxMLVj9XO0Q)
+*   **电子邮件**：[edialect@edialect.top](mailto:edialect@edialect.top)
 
 ---
 

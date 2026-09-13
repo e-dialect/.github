@@ -18,9 +18,7 @@ E-Dialect 是开放 GitHub 工程社区；“乡声万语”是社区内的一�
 
 ### 0.1 许可证
 
-e-dialect 组织下的主要代码仓库采用 **GNU Affero General Public License v3.0 (AGPL-3.0)** 或其他 OSI 认证的开源协议。
-
-具体许可证以各仓库根目录的 `LICENSE` 文件为准。
+各仓库的许可证相互独立，以该仓库根目录的 `LICENSE` 文件为唯一准据。没有根目录 `LICENSE` 时，不得推定该仓库采用 AGPL、其它开源许可证或授予了额外使用权。
 
 ### 0.2 贡献者许可协议（CLA）
 
@@ -48,9 +46,7 @@ e-dialect 组织下的主要代码仓库采用 **GNU Affero General Public Licen
 
 #### 商业授权
 
-e-dialect 项目采用 AGPL-3.0 协议。  
-
-如果你希望在闭源商业产品中使用本项目代码，或需要商业许可（例如私有化部署、SaaS 场景等），请联系项目管理方获取商业授权。
+是否可以提供商业授权，以及授权主体、范围和条件，须依据具体仓库的 `LICENSE`、适用的 CLA、合同和法律审查结论判断，不应从组织级文档推定统一的 AGPL 或再许可安排。如需闭源使用、私有化部署或其它商业许可，请联系对应项目管理方确认；未决的组织级权利链问题由 [GOV-LEGAL #3](https://github.com/e-dialect/.github/issues/3) 跟踪。
 
 ---
 
@@ -62,7 +58,8 @@ e-dialect 项目采用 AGPL-3.0 协议。
 - Tracking / Epic 可以由 Accountable Owner 持有，表示对范围、拆分、风险、证据和 Gate 负责；不表示该人亲自实现全部工作。
 - Leaf 的 Assignee 表示当前实际执行人；没有 Assignee 的 Leaf 不视为已正式认领。
 - 具体项目负责人、并发任务限制、能力分级与 Demo cadence 以对应仓库或 initiative 文档为准。
-- 每个任务都应给出 Demo Moment、Evidence、Acceptance 和 `Not manually verified`。
+- Work Package 应定义 Demo Moment、Evidence requirement、Acceptance 和 Risk。
+- PR 或完成记录应填写 Human verification、`Not manually verified` 和实际 Evidence。
 
 ### 1.1 认领 Issue
 
@@ -129,7 +126,7 @@ git push origin <your-branch-name>
 
    - 目标仓库为：`e-dialect/<仓库名>`
 
-   - 目标分支为：`main` 或 `develop`（以该仓库分支策略为准）
+   - 目标分支为：目标仓库文档或 GitHub 界面指定的目标分支
 
    - 源仓库为：`<你的用户名>/<仓库名>`
 
@@ -267,75 +264,18 @@ This issue is fixed by adding proper validation and early return.
 
 ## 3. 分支与发布规范
 
-### 3.1 主要分支类型
-
-- `main` / `master`：主分支，保存稳定发布版本。
-
-- `develop`：开发分支，保存最新开发版本，新功能首先合并到此分支。
-
-- `release-YYYYMMDD-<version>`：预发布分支，用于发布前测试与 Bug 修复。
-
-- `feature-<功能编号>`：功能分支，用于开发新功能。
-
-- `hotfix-YYYYMMDD-<关键字>`：热修复分支，用于修复已发布版本的严重 Bug。
-
-> 带星号的分支为临时分支，合并完成后应删除。
-
-### 3.2 功能开发流程
-
-1. 从 `develop` 创建功能分支，如 `feature-GN0101`。
-
-2. 在该分支上进行开发、测试。
-
-3. 开发完成后，创建 PR 合并回 `develop`。
-
-4. 通过 Code Review 与 CI 后，删除该功能分支。
-
-若对同一功能多次迭代开发，可在分支名后加序号，例如：
-
-- `feature-GN0101`
-
-- `feature-GN0101-02`
-
-- `feature-GN0101-03`
-
-### 3.3 预发布与发布
-
-1. 从 `develop` 创建 `release-YYYYMMDD-<version>` 分支。
-
-2. 在该分支上仅允许：
-
-   - Bug 修复；
-
-   - 文档更新；
-
-   - 与发布相关的配置调整。
-
-3. 测试通过后：
-
-   - PR 合并回 `develop`（保存修复）；
-
-   - PR 合并到 `main`（正式发布）。
-
-4. 为 `main` 上的对应提交打 Git 标签，如 `v1.0.0`。
-
-### 3.4 线上热修复
-
-1. 从 `main` 创建 `hotfix-YYYYMMDD-<关键字>` 分支。
-
-2. 在该分支上修复 Bug，并提交 `fix` 类型的 commit。
-
-3. PR 合并到 `main`（修复线上环境）。
-
-4. PR 合并到 `develop`（将修复同步到开发分支）。
-
-5. 删除热修复分支。
+- 默认以目标仓库的 GitHub default branch 为工作基线；开始前先同步该分支。
+- 从最新目标分支创建短生命周期工作分支，并通过 Pull Request 合回目标仓库规定的目标分支。
+- 组织级规则不假设 `develop`、`release` 或 `hotfix` 分支一定存在。
+- 仓库如有特殊发布分支策略，以该仓库的 CONTRIBUTING、README 和 GitHub ruleset 为准。
+- 不直接 push 受保护主分支；不对共享或已进入评审的分支进行无说明的 force-push。
+- PR 合并后，不再需要的工作分支应及时删除。
 
 ---
 
 ## 4. Pull Request 规范
 
-- 所有代码变更必须通过 Pull Request 合并，禁止直接向 `main`/`develop` 提交。
+- 所有代码变更必须通过 Pull Request 合并，禁止直接向目标仓库的受保护主分支提交。
 
 - PR 应满足：
 

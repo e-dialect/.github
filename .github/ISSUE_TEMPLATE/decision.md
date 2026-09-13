@@ -18,7 +18,7 @@ assignees: ""
 
 <!-- YYYY-MM-DD HH:mm TZ -->
 
-## Default action if no Steering response
+## Default action if no decision-owner response
 
 ## Escalation reason
 
