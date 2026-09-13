@@ -35,6 +35,25 @@ Privacy, consent, publicity/personality, biometric, copyright, database,
 contract, and trademark requirements may apply independently of an open-source
 license.
 
+## Current operational rule
+
+Until e-dialect publishes a separate contribution or license agreement for the
+relevant asset category, an ordinary software pull request should not directly
+add the asset itself when it is a dataset, corpus, dictionary or lexical
+content, fieldwork material, recording, speaker or voice sample, biometric or
+personal data, linguistic annotation submitted as a dataset, model weight, or
+generated media or data intended as a reusable dataset.
+
+Contributors may instead submit source leads, links to public sources,
+provenance information, or code for processing, proofreading, conversion, and
+quality checks. They may also contact maintainers to discuss a contribution
+that needs a separate asset agreement. Uploading material to GitHub or opening
+a pull request must not be interpreted as granting rights in that material.
+
+An asset whose provenance or licensing authority has not been reviewed must
+not be incorporated into an official dataset or product data pipeline merely
+because it came from a community contribution.
+
 ---
 
 # 资产与数据许可证政策
@@ -66,3 +85,17 @@ license.
 
 第三方许可证和署名文件必须与对应路径一同保留。隐私、同意、人格/公开权、生物识别、
 版权、数据库、合同和商标要求可能独立于开源许可证继续适用。
+
+## 当前执行规则
+
+在 e-dialect 针对相关资产发布单独的贡献或授权协议以前，普通软件 Pull Request 不应
+直接新增以下资产本体：数据集、语料库、词典或词汇内容、田野材料、录音、说话人或
+声音样本、生物识别或个人数据、作为数据集提交的语言学标注、模型权重，以及拟作为
+可复用数据集的生成媒体或数据。
+
+贡献者可以提交数据来源线索、公开来源链接、来源与权利信息，以及数据处理、校对、
+转换和质量检查代码；也可以联系维护者讨论需要单独资产协议的贡献。将材料上传到
+GitHub 或创建 Pull Request，不得被解释为已经授予该材料的相关权利。
+
+尚未完成来源或授权依据审查的资产，不得仅因来自社区贡献就自动并入正式数据集或
+产品数据管线。
