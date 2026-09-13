@@ -63,8 +63,10 @@ No repository in this audit is marked `FULL`.
 - Organization license and CLA governance: Draft
   [`.github PR #5`](https://github.com/e-dialect/.github/pull/5), intentionally
   unmerged. The PR author is `@lin594`, so GitHub does not permit requesting
-  `@lin594` as a reviewer of the same PR; an independent human R2 reviewer must
-  be designated before the PR is made ready for review or merged.
+  or recording `@lin594`'s self-approval on the same PR. The required R2 gate
+  therefore needs an explicit `@lin594` directive after manual review, or an
+  independent reviewer if the owner chooses to designate one. Codex must not
+  make the PR ready or merge it automatically.
 - CLA installation, immutable hash, Gist revision, test PR, and real check name: [`.github issue #6`](https://github.com/e-dialect/.github/issues/6).
 - Future `django-template` deletion candidate, without a due date or deletion authorization: [`.github issue #4`](https://github.com/e-dialect/.github/issues/4).
 - `hinghwa-RAG` upstream license/permission request: [`hinghwa-RAG issue #1`](https://github.com/e-dialect/hinghwa-RAG/issues/1).
