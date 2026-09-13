@@ -55,4 +55,14 @@ E-Dialect 是面向方言、地方语言、民族语言数字化与开放技术�
 
 - [乡声集盒](https://github.com/e-dialect/xiangsheng-box)
 - [万语校坊](https://github.com/e-dialect/wanyu-proofreader)
+- [Git / GitHub 协作练习](https://github.com/e-dialect/code-contributing-practice)
 - [组织协作与治理](https://github.com/e-dialect/.github)
+
+旧仓库 `hinghwa-dict-v2` 已由[乡声集盒](https://github.com/e-dialect/xiangsheng-box)取代；
+旧 `Git-Practice` 已由上面的 `code-contributing-practice` 取代。旧仓库仅保留为私有归档。
+
+## 许可证与资产边界
+
+各仓库按自己的 `LICENSE`、`LICENSING.md` 和路径级声明授权。原创应用与网络服务
+代码通常采用 `AGPL-3.0-only`；第三方代码继续适用上游条款。代码许可证不自动覆盖
+数据、语料、录音、模型权重、商标或 Logo。详情见[组织许可证政策](../LICENSING.md)。
