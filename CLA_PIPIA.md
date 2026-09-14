@@ -1,7 +1,8 @@
 # CLA Personal-Information Protection Impact Assessment Record
 # CLA 个人信息保护影响评估记录
 
-**Assessment date / 评估日期：2026-09-14**  
+**Assessment date / 评估日期：2026-09-14**
+
 **Scope / 范围：planned e-dialect ICLA workflow; not yet activated / 拟上线的
 e-dialect ICLA 流程；尚未启用**
 
