@@ -169,13 +169,19 @@ GitHub 验证的身份和用户名。GitHub 用户名从经验证的签署记录
 ## 7. Signature information / 签署信息
 
 Explicit electronic acceptance through the configured CLA service constitutes
-signature of this agreement. The signer provides:
+signature of this agreement. The configured workflow records:
 
 - Legal name / 法定姓名
 - GitHub-authenticated username (recorded automatically) / 经 GitHub 验证并自动记录的用户名
 - Separate cross-border-processing confirmation / 单独的境外处理确认
 - Acceptance date and time / 接受日期与时间
 - Agreement version / 协议版本：1.0
+
+The cross-border-processing confirmation is collected and recorded separately
+from acceptance of this agreement. By itself, it is not signature or acceptance
+of the ICLA.
+
+境外处理确认与本协议的接受分别收集和记录。该确认本身不构成对 ICLA 的签署或接受。
 
 If you do not understand or cannot make the representations above, do not sign
 or submit material for inclusion until the issue is resolved.
