@@ -14,6 +14,11 @@ manually merged.**
 The public Gist must contain bytes identical to the merged `ICLA.md`. Record
 both the repository commit and the Gist revision before enabling checks.
 
+Before production activation, confirm that
+[`CLA_PIPIA.md`](./CLA_PIPIA.md) still matches the actual provider, metadata,
+privacy URL, data flow, and retention practice. Reassess and update that record
+first if the production configuration materially differs.
+
 After the first external contributor signs Version 1.0, do not make cosmetic,
 formatting, or metadata-only edits to that version's Gist. Any material change
 must use a new CLA version and require explicit acceptance for later
@@ -26,8 +31,12 @@ The normal flow must stay minimal:
 1. The individual opens a pull request.
 2. CLA Assistant prompts the individual on the first Contribution covered by
    the current ICLA version.
-3. The individual explicitly accepts that ICLA version.
-4. The individual normally takes no further action for later Contributions
+3. The individual separately confirms the cross-border processing described in
+   the project Privacy Notice.
+4. The individual explicitly accepts that ICLA version. The cross-border
+   confirmation is a separate required boolean and is not itself ICLA
+   acceptance.
+5. The individual normally takes no further action for later Contributions
    covered by the same version.
 
 The GitHub username comes from the GitHub-authenticated signature record and
@@ -43,8 +52,8 @@ organization actually contributes:
 3. the Corporate Contributor supplies its Authorized Contributors' GitHub
    usernames;
 4. the maintainer records only the minimum private coverage information;
-5. the covered accounts are added to the applicable CLA exemption or
-   allowlist;
+5. the covered accounts' exact GitHub usernames are added to CLA Assistant's
+   user allowlist through `allowListPattern`;
 6. when an account ceases to be an Authorized Contributor, it is removed from
    the exemption for future Contributions without changing the status of
    Contributions submitted and accepted during valid CCLA coverage; and
@@ -57,6 +66,12 @@ database, dedicated administration service, public employee registry, or
 public names and email list is required. An exemption records coverage but
 creates no rights; the countersigned CCLA is the source of the license.
 
+Use exact usernames and do not use broad wildcard patterns for CCLA-covered
+employees, students, or other humans. Document bot allowlist entries separately
+from CCLA allowlist entries. CLA Assistant's signature Import function **must
+not** be used to represent CCLA coverage or create an apparent ICLA signature
+for a person who did not sign the ICLA.
+
 ## CLA Assistant configuration
 
 - Organization: `e-dialect`
@@ -64,21 +79,53 @@ creates no rights; the countersigned CCLA is the source of the license.
 - GitHub App: <https://github.com/apps/cla-assistant>
 - Before installation, restrict GitHub App installation in the organization's
   member-privilege settings to Organization Owners.
-- Required custom fields (minimum):
-  - legal name;
-  - current email address;
+- Required project metadata fields:
+  - legal name as the only project-requested text custom field;
+  - a separate required boolean confirming the cross-border processing
+    described in the project Privacy Notice.
 - Obtain the GitHub username from the GitHub-authenticated signature record;
   do not ask the signer to type it again as a custom field.
-- If professional legal review concludes that email is not required, remove it
-  rather than collecting redundant personal data.
+- Do not request a current email address as an e-dialect custom field. This
+  does not imply that GitHub, CLA Assistant, or SAP never processes an account
+  email under its own terms and notices.
 - A material ICLA change requires acceptance of the new version.
 - CCLA signatures are reviewed and recorded manually.
 - Do not treat a pull-request checkbox, commit, or PR creation as acceptance.
-- Configure this repository's [`CLA_PRIVACY.md`](./CLA_PRIVACY.md) as the
-  project Privacy Policy URL.
+- Configure
+  <https://github.com/e-dialect/.github/blob/main/CLA_PRIVACY.md> as the project
+  Privacy Policy URL.
 - CLA Assistant’s hosted service states that signer data is stored in Microsoft
   Azure infrastructure in Europe. Maintainers should periodically export the
   signer record only for access-controlled rights-chain and audit retention.
+
+The Gist file named `metadata` must follow CLA Assistant's current
+[`custom-fields-schema.json`](https://github.com/cla-assistant/cla-assistant/blob/main/custom-fields-schema.json).
+The current schema supports a required `boolean`. Use this minimum configuration
+after the final ICLA Gist is created:
+
+```json
+{
+  "legalName": {
+    "title": "Legal name / 法定姓名",
+    "description": "Enter your legal name for the ICLA signature record. / 请填写用于 ICLA 签署记录的法定姓名。",
+    "type": "string",
+    "required": true
+  },
+  "crossBorderConsent": {
+    "title": "I separately consent to the cross-border processing of my CLA signature information as described in the e-dialect CLA Privacy Notice. / 我已阅读 e-dialect CLA 隐私说明，并单独同意按其中说明将我的 CLA 签署相关个人信息提供至境外服务进行处理。",
+    "description": "This confirmation is separate from accepting the ICLA. / 此确认独立于对 ICLA 的接受。",
+    "type": "boolean",
+    "required": true
+  }
+}
+```
+
+Before production activation, validate the final metadata against the then
+current schema and use a test account to confirm that the bilingual field is
+displayed, leaving it unchecked blocks completion, checking it is recorded,
+and the configured Privacy Policy URL opens the published notice. The required
+boolean is shown to every signer in the enabled workflow so that a signer in
+mainland China cannot complete the flow without the separate confirmation.
 
 ## Repositories to enable
 
@@ -127,6 +174,17 @@ private/archived legacy repository. Select repositories explicitly; never use
 
 Do not guess the check name. Bot accounts may use a narrow allowlist; ordinary
 student accounts must not be exempted.
+
+## Activation ledger
+
+This table establishes when each repository became a Covered Repository for a
+specific CLA version. Add one row immediately after each repository is enabled.
+Do not record contributor personal information. Use an unambiguous date and
+time for `Enabled at`, the commit containing the formally merged ICLA, the real
+Gist revision, and the check name observed in the test pull request.
+
+| Repository | CLA version | Enabled at | ICLA repository commit | Gist revision | CLA check name |
+|---|---|---|---|---|---|
 
 ## Multi-author Contributions
 

@@ -17,6 +17,7 @@
 | [`CCLA.md`](./CCLA.md) | **企业贡献者许可协议**：企业或机构作为贡献者时需签署的协议。 |
 | [`CLA_MIGRATION.md`](./CLA_MIGRATION.md) | **CLA 迁移**：说明历史贡献、既有开源授权与替代商业许可的权利链边界。 |
 | [`CLA_PRIVACY.md`](./CLA_PRIVACY.md) | **签署者隐私**：说明 CLA Assistant 数据字段、用途、访问控制和请求渠道。 |
+| [`CLA_PIPIA.md`](./CLA_PIPIA.md) | **个人信息保护影响评估**：记录 CLA 签署流程的数据最小化、境外处理风险与缓解措施。 |
 | [`LICENSING.md`](./LICENSING.md) | **许可证政策**：原创代码、第三方内容、数据资产与替代许可的组织级边界。 |
 | [`ASSET_AND_DATA_POLICY.md`](./ASSET_AND_DATA_POLICY.md) | **资产与数据政策**：区分代码、语料、录音、模型、个人数据与品牌授权。 |
 | [`OPEN_SOURCE_COMMITMENT.md`](./OPEN_SOURCE_COMMITMENT.md) | **开源承诺**：说明核心公共主线与替代许可并行的长期原则。 |

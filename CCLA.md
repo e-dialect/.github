@@ -3,7 +3,10 @@
 
 **Version / 版本：1.0**
 
-**Effective date / 生效日期：2026-09-13**
+**Template version date / 模板版本日期：2026-09-13**
+
+**Effective date / 生效日期：the date on which the last party completes
+signature / 以最后一方完成签署之日为准**
 
 This agreement is for a company or other organization whose personnel submit
 Contributions to Covered Repositories as defined below. It is not a copyright
@@ -127,10 +130,12 @@ The Corporate Contributor represents that:
 机构贡献者声明：其拥有作出本协议授权所需的充分权利；授权贡献者获准提交相应作品；
 第三方材料均显著标明来源和许可证；授权贡献者名单需要增删时将及时通知项目管理方。
 
-The Corporate Contributor is not required to provide support, and Contributions
-are provided without warranties unless separately agreed in writing.
+The Corporate Contributor is not required to provide support. To the extent
+permitted by applicable law, Contributions are provided without warranties
+unless separately agreed otherwise in writing.
 
-除非另有书面约定，机构贡献者没有提供支持的义务，贡献不附带保证。
+机构贡献者没有提供支持的义务。在适用法律允许的范围内，除非另有书面约定，贡献不
+附带保证。
 
 ## 6. Versioning and signing / 版本与签署
 
@@ -150,11 +155,11 @@ reviewed manually by the Project Manager.
    Manager. / 本 CCLA 必须由机构贡献者和项目管理方双方签署。
 2. The Corporate Contributor provides the GitHub usernames of its Authorized
    Contributors. / 机构贡献者提供授权贡献者的 GitHub 用户名。
-3. After manual verification, the Project Manager may add those accounts to
-   the applicable CLA check exemption or allowlist. This records CCLA coverage;
-   it does not mean that the individuals signed the ICLA. / 项目管理方人工核对
-   后，可将相应账号加入适用 CLA 检查的免签名单。该操作仅表示有效 CCLA 覆盖，
-   不表示个人已经签署 ICLA。
+3. After manual verification, the Project Manager may add those exact accounts
+   to CLA Assistant's user allowlist through `allowListPattern`. This records
+   CCLA coverage; it does not mean that the individuals signed the ICLA. / 项目
+   管理方人工核对后，可通过 CLA Assistant 的用户 allowlist / `allowListPattern`
+   将准确账号加入免签名单。该操作仅表示有效 CCLA 覆盖，不表示个人已经签署 ICLA。
 4. An exemption or allowlist creates no intellectual-property license. The
    signed CCLA is always the source of the license. / 免签或白名单本身不产生任何
    知识产权授权，授权始终来自已经签署的 CCLA。
@@ -165,6 +170,18 @@ reviewed manually by the Project Manager.
    effect. / 授权贡献者退出名单时，机构贡献者应通知项目管理方，并应将相应账号从
    未来贡献的免签名单中移除。该移除不影响其在有效 CCLA 覆盖期间已经提交并被接受
    的贡献。
+
+Use exact GitHub usernames for CCLA coverage and do not use broad wildcard
+patterns for employees, students, or other human contributors. Keep bot
+allowlist entries and CCLA allowlist entries separately documented. CLA
+Assistant's signature Import function **must not** be used to represent CCLA
+coverage or to create an apparent ICLA signature for anyone who did not sign
+the ICLA.
+
+CCLA 覆盖必须使用准确的 GitHub 用户名，不得通过宽泛通配规则为员工、学生或其他真人
+贡献者免签。机器人 allowlist 与企业 CCLA allowlist 应分别记录。**不得**使用 CLA
+Assistant 的 Import Signature（签名导入）功能表示 CCLA 覆盖，也不得以此为未签署
+ICLA 的人员创建表面上的 ICLA 签署记录。
 
 The Project Manager will keep only the minimum private record needed to verify
 CCLA coverage. No public employee registry is required, and employee legal

@@ -3,7 +3,11 @@
 
 **Version / 版本：1.0**
 
-**Effective date / 生效日期：2026-09-13**
+**Version date / 版本日期：2026-09-13**
+
+**Effective for each signer / 对每位签署者的生效时间：upon explicit
+acceptance recorded by the configured CLA service / 以配置的 CLA 服务记录其
+显式接受之时为准**
 
 This agreement is not an assignment of copyright. You keep the copyright in
 your Contribution. It records the rights needed to maintain an auditable
@@ -131,10 +135,11 @@ You represent that:
 标明来源和许可证；如果雇主或其他机构可能拥有或控制贡献，你已经取得所需授权或将
 使用 CCLA 流程；你不会把无权许可的材料作为自己的原创贡献提交。
 
-You are not required to provide support, and your Contribution is provided
-without warranties unless you separately agree otherwise in writing.
+You are not required to provide support. To the extent permitted by applicable
+law, your Contribution is provided without warranties unless you separately
+agree otherwise in writing.
 
-除非另有书面约定，你没有提供支持的义务，贡献不附带保证。
+你没有提供支持的义务。在适用法律允许的范围内，除非另有书面约定，贡献不附带保证。
 
 ## 6. Versioning and explicit acceptance / 版本与显式接受
 
@@ -147,16 +152,19 @@ itself, does **not** constitute acceptance of this agreement.
 合并前接受新版本。仅创建 Pull Request 或提交 Commit **不构成**对本协议的接受。
 
 First-time contributors will be asked by the configured CLA service to accept
-this version explicitly. Acceptance records may include legal name, current
-email address, agreement version, timestamp, and the GitHub-authenticated
-identity and username. The GitHub username is taken from the authenticated
-signature record rather than requested again as a custom field. Signer-data
-handling is described in [`CLA_PRIVACY.md`](./CLA_PRIVACY.md).
+this version explicitly. Acceptance records may include legal name, agreement
+version and revision, timestamp, related pull-request identifiers, a separate
+cross-border-processing confirmation, and the GitHub-authenticated identity
+and username. The GitHub username is taken from the authenticated signature
+record rather than requested again as a custom field. e-dialect does not ask
+for a current email address as a project custom field. Signer-data handling is
+described in the [CLA Signer Privacy Notice](https://github.com/e-dialect/.github/blob/main/CLA_PRIVACY.md).
 
 首次贡献者将由已配置的 CLA 服务提示显式接受本版本。签署记录可以包括法定姓名、
-当前邮箱、协议版本、时间，以及经 GitHub 验证的身份和用户名。GitHub 用户名从经
-验证的签署记录取得，不要求签署者再次作为自定义字段手填。签署者数据的处理方式见
-[`CLA_PRIVACY.md`](./CLA_PRIVACY.md)。
+协议版本与修订、签署时间、相关 Pull Request 标识、单独的境外处理确认，以及经
+GitHub 验证的身份和用户名。GitHub 用户名从经验证的签署记录取得，不要求签署者再次
+作为自定义字段手填；e-dialect 不要求将当前邮箱作为项目自定义字段。签署者数据的
+处理方式见 [CLA 签署者隐私说明](https://github.com/e-dialect/.github/blob/main/CLA_PRIVACY.md)。
 
 ## 7. Signature information / 签署信息
 
@@ -164,8 +172,8 @@ Explicit electronic acceptance through the configured CLA service constitutes
 signature of this agreement. The signer provides:
 
 - Legal name / 法定姓名
-- Current email / 当前邮箱
 - GitHub-authenticated username (recorded automatically) / 经 GitHub 验证并自动记录的用户名
+- Separate cross-border-processing confirmation / 单独的境外处理确认
 - Acceptance date and time / 接受日期与时间
 - Agreement version / 协议版本：1.0
 
