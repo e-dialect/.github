@@ -1,7 +1,7 @@
 # CLA Assistant Setup
 
-Status: **ICLA Version 1.0 is merged and its public Gist is pinned; production
-activation remains pending under issue #6.**
+Status: **ICLA Version 1.0 is active for `e-dialect/.github`; expansion to
+other repositories remains pending under issue #6.**
 
 ## Agreement identity
 
@@ -18,7 +18,7 @@ activation remains pending under issue #6.**
 The public Gist must contain bytes identical to the merged `ICLA.md`. Record
 both the repository commit and the Gist revision before enabling checks.
 
-Before production activation, confirm that
+Before activating another repository, confirm that
 [`CLA_PIPIA.md`](./CLA_PIPIA.md) still matches the actual provider, metadata,
 privacy URL, data flow, and retention practice. Reassess and update that record
 first if the production configuration materially differs.
@@ -189,6 +189,7 @@ Gist revision, and the check name observed in the test pull request.
 
 | Repository | CLA version | Enabled at | ICLA repository commit | Gist revision | CLA check name |
 |---|---|---|---|---|---|
+| `e-dialect/.github` | `1.0` | `2026-09-15T11:09:51Z` | `26f24cb518d6bc03d26b8f27c64e172ff3988d33` | `b41fb7e4f5a53d57092b133757bdc23c92a417a0` | `license/cla` |
 
 ## Multi-author Contributions
 

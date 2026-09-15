@@ -7,7 +7,7 @@ or the hosted service.
 
 ## Service and data collected
 
-e-dialect plans to use the third-party hosted
+e-dialect uses the third-party hosted
 [CLA Assistant](https://cla-assistant.io/) service and its GitHub
 authentication. The service is provided by SAP. Its source repository
 describes the hosted service, including its use of Microsoft Azure
@@ -96,7 +96,7 @@ licensing or dispute handling.
 
 ## 服务与收集的信息
 
-e-dialect 计划使用由 SAP 提供的第三方托管服务
+e-dialect 使用由 SAP 提供的第三方托管服务
 [CLA Assistant](https://cla-assistant.io/) 及其 GitHub 身份验证。服务当前公开资料说明
 其使用位于欧洲的 Microsoft Azure 基础设施；运行信息见
 [CLA Assistant 源仓库](https://github.com/cla-assistant/cla-assistant)，SAP 的
