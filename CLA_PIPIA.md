@@ -3,8 +3,11 @@
 
 **Assessment date / 评估日期：2026-09-14**
 
-**Scope / 范围：planned e-dialect ICLA workflow; not yet activated / 拟上线的
-e-dialect ICLA 流程；尚未启用**
+**Activation review date / 启用复核日期：2026-09-15**
+
+**Scope / 范围：active e-dialect ICLA workflow for `e-dialect/.github`;
+other repositories not yet activated / 已为 `e-dialect/.github` 启用的 e-dialect
+ICLA 流程；其他仓库尚未启用**
 
 This public record contains no contributor personal data. It is a lightweight
 governance assessment, not legal advice or a substitute for advice on a
@@ -15,14 +18,14 @@ specific processing activity.
 
 ## Processing activity and purpose / 处理活动与目的
 
-e-dialect plans to use the SAP-provided CLA Assistant hosted service and
+e-dialect uses the SAP-provided CLA Assistant hosted service and
 GitHub authentication to record explicit acceptance of ICLA Version 1.0. The
 purposes are to verify the contributor's authenticated identity, record the
 agreement version and acceptance, establish an auditable code-contribution
 rights chain, conduct necessary compliance audits, and handle related disputes
 when necessary.
 
-e-dialect 计划使用由 SAP 提供的 CLA Assistant 托管服务和 GitHub 身份验证，记录
+e-dialect 使用由 SAP 提供的 CLA Assistant 托管服务和 GitHub 身份验证，记录
 ICLA 1.0 版的显式接受。处理目的为验证贡献者经身份验证的账号，记录协议版本与接受，
 建立可审计的代码贡献权利链，以及进行必要的合规审计和相关争议处理。
 
@@ -92,14 +95,15 @@ commercial reliance, or dispute use materially increases.
 
 Expected volume is small, data categories are limited, and purposes are
 specific. With the stated minimization, notice, separate confirmation, and
-access controls, the present risk is considered acceptable for the planned
-workflow. Reassess before activation if the actual configuration differs, and
-again whenever the data categories, scale, provider, infrastructure, or
-processing purpose changes materially.
+access controls, the present risk is considered acceptable for the active
+`.github` workflow. Reassess before expanding to another repository if its
+actual configuration differs, and again whenever the data categories, scale,
+provider, infrastructure, or processing purpose changes materially.
 
 预计处理规模较小、信息种类有限、目的明确。在落实上述最小化、告知、单独确认和访问
-控制后，当前风险对拟定流程而言可以接受。正式启用前，如实际配置与本记录不一致，应
-先重新评估；信息种类、规模、服务方、基础设施或处理目的发生重大变化时亦须复评。
+控制后，当前风险对已启用的 `.github` 流程而言可以接受。扩展至其他仓库前，如其实际
+配置与本记录不一致，应先重新评估；信息种类、规模、服务方、基础设施或处理目的发生
+重大变化时亦须复评。
 
 ## Retention / 保留
 
