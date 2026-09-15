@@ -1,15 +1,19 @@
 # CLA Assistant Setup
 
-Status: **documentation prepared; activation waits for the governance PR to be
-manually merged.**
+Status: **ICLA Version 1.0 is merged and its public Gist is pinned; production
+activation remains pending under issue #6.**
 
 ## Agreement identity
 
 - Agreement: `ICLA.md`
 - Version: `1.0`
-- Merged Git commit: pending manual merge
-- SHA-256 of the merged `ICLA.md`: pending manual merge
-- Public Gist URL and revision: pending manual merge
+- Merged Git commit:
+  [`26f24cb518d6bc03d26b8f27c64e172ff3988d33`](https://github.com/e-dialect/.github/commit/26f24cb518d6bc03d26b8f27c64e172ff3988d33)
+- SHA-256 of the merged `ICLA.md`:
+  `445bd124d129f75a377629fecbcd58c14aa25c78acefca7c877d3a9e46547f85`
+- Public Gist URL:
+  <https://gist.github.com/lin594/e7aad6aea670fb1075a294f1269e58ae>
+- Gist revision: `b41fb7e4f5a53d57092b133757bdc23c92a417a0`
 
 The public Gist must contain bytes identical to the merged `ICLA.md`. Record
 both the repository commit and the Gist revision before enabling checks.
