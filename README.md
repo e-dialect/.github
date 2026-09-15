@@ -15,6 +15,14 @@
 | [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) | **行为准则**：定义了社区成员应遵守的行为规范，致力于营造一个开放、友好、包容的社区环境。 |
 | [`ICLA.md`](./ICLA.md) | **个人贡献者许可协议**：个人贡献者在提交代码时需同意的协议，保障项目知识产权清晰。 |
 | [`CCLA.md`](./CCLA.md) | **企业贡献者许可协议**：企业或机构作为贡献者时需签署的协议。 |
+| [`CLA_MIGRATION.md`](./CLA_MIGRATION.md) | **CLA 迁移**：说明历史贡献、既有开源授权与替代商业许可的权利链边界。 |
+| [`CLA_PRIVACY.md`](./CLA_PRIVACY.md) | **签署者隐私**：说明 CLA Assistant 数据字段、用途、访问控制和请求渠道。 |
+| [`CLA_PIPIA.md`](./CLA_PIPIA.md) | **个人信息保护影响评估**：记录 CLA 签署流程的数据最小化、境外处理风险与缓解措施。 |
+| [`LICENSING.md`](./LICENSING.md) | **许可证政策**：原创代码、第三方内容、数据资产与替代许可的组织级边界。 |
+| [`ASSET_AND_DATA_POLICY.md`](./ASSET_AND_DATA_POLICY.md) | **资产与数据政策**：区分代码、语料、录音、模型、个人数据与品牌授权。 |
+| [`OPEN_SOURCE_COMMITMENT.md`](./OPEN_SOURCE_COMMITMENT.md) | **开源承诺**：说明核心公共主线与替代许可并行的长期原则。 |
+| [`TRADEMARKS.md`](./TRADEMARKS.md) | **品牌边界**：说明开源许可证不自动授予商标与 Logo 使用权。 |
+| [`LICENSE_AUDIT_2026-09.md`](./LICENSE_AUDIT_2026-09.md) | **许可证审计**：记录本轮逐仓判断、状态与后续事项。 |
 
 > **💡 提示**：GitHub 会自动将本仓库中的 `CONTRIBUTING.md`、Issue/PR 模板和 `CODE_OF_CONDUCT.md` 等文件作为组织下所有仓库的默认文件，除非某个仓库自己定义了同名文件。
 
@@ -29,18 +37,20 @@
 1. **寻找任务**：前往感兴趣的项目仓库，查看标记为 `good first issue` 或 `help wanted` 的 Issues。
 2. **认领 Issue**：在 Issue 下方留言或自行 Assign，表明你正在处理该问题。
 3. **签署协议**：
-    *   **个人贡献者**：提交 PR 即视为同意 [ICLA](./ICLA.md)。
-    *   **企业贡献者**：请先让贵公司签署 [CCLA](./CCLA.md)。
+    *   **个人贡献者**：在 CLA 检查提示时显式接受当前 [ICLA](./ICLA.md)；提交 PR 本身不代表同意。
+    *   **企业贡献者**：请先让贵公司签署 [CCLA](./CCLA.md)，由项目管理方人工确认。
 4. **提交代码**：Fork 仓库 -> 创建分支 -> 提交代码 -> 发起 Pull Request。
 5. **代码评审**：等待社区成员进行 Code Review，并根据反馈进行修改。
 
 ## 📜 许可证
 
 ### 代码仓库许可证
-E-Dialect 各仓库的许可证相互独立，以该仓库根目录的 `LICENSE` 文件为唯一准据。没有根目录 `LICENSE` 时，不得推定该仓库采用 AGPL、其它开源许可证或授予了额外使用权。
+E-Dialect 各仓库的许可证相互独立，以仓库内 `LICENSE`、`LICENSING.md` 与路径级声明为准。组织有权授权的原创应用和网络服务代码默认采用 `AGPL-3.0-only`，但该默认规则不覆盖第三方代码，也不自动授权数据、语料、录音、模型、商标或 Logo。
 
 ### 本仓库内容
-本仓库目前没有根目录 `LICENSE`。在许可方案经 [GOV-LEGAL #3](https://github.com/e-dialect/.github/issues/3) 确认并以根目录 `LICENSE` 落地前，不应仅依据 README 推定 CC BY 4.0 或其它额外复用授权。
+本仓库中原创社区文档除另有说明外采用 **Creative Commons Attribution 4.0 International（`CC-BY-4.0`）**，详见 [`LICENSE`](./LICENSE) 与 [`LICENSING.md`](./LICENSING.md)。
+
+AGPL 本身允许商业使用。无法或不希望遵守 AGPL 条款的组织，可以联系对应项目维护者了解替代商业许可；商业使用本身不强制购买许可。
 
 ## 📮 联系我们
 

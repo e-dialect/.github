@@ -32,6 +32,9 @@ E-Dialect 是面向方言、地方语言、民族语言数字化与开放技术�
 - **方言与语言学**：正字、读音、IPA、语言背景与专业审核；
 - **地方文化资源**：资料线索、授权协作与地方社群连接。
 
+涉及语料、录音、词典内容等数据本体的贡献采用独立授权流程，不直接适用代码 CLA；
+详情见[资产与数据许可证政策](../ASSET_AND_DATA_POLICY.md)。
+
 开始前请阅读组织的[贡献指南](../CONTRIBUTING.md)与[治理说明](../GOVERNANCE.md)，再进入对应仓库查看当前 Issue。GitHub 原生 Assignee 是正式 ownership 信号；具体项目负责人和执行节奏以相应仓库或 initiative 文档为准。
 
 ## 社区、计划与商业主体
@@ -55,4 +58,14 @@ E-Dialect 是面向方言、地方语言、民族语言数字化与开放技术�
 
 - [乡声集盒](https://github.com/e-dialect/xiangsheng-box)
 - [万语校坊](https://github.com/e-dialect/wanyu-proofreader)
+- [Git / GitHub 协作练习](https://github.com/e-dialect/code-contributing-practice)
 - [组织协作与治理](https://github.com/e-dialect/.github)
+
+旧仓库 `hinghwa-dict-v2` 已由[乡声集盒](https://github.com/e-dialect/xiangsheng-box)取代；
+旧 `Git-Practice` 已由上面的 `code-contributing-practice` 取代。旧仓库仅保留为私有归档。
+
+## 许可证与资产边界
+
+各仓库按自己的 `LICENSE`、`LICENSING.md` 和路径级声明授权。原创应用与网络服务
+代码通常采用 `AGPL-3.0-only`；第三方代码继续适用上游条款。代码许可证不自动覆盖
+数据、语料、录音、模型权重、商标或 Logo。详情见[组织许可证政策](../LICENSING.md)。

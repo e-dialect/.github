@@ -33,6 +33,15 @@
 
 <!-- 测试日志、截图、录屏、数据报告、可复现实验或 Demo Moment。 -->
 
+## Contribution
+
+- [ ] I confirm that I have the right to submit this contribution.
+- [ ] Any third-party material included in this PR is clearly identified with its source and license.
+
+For first-time contributors to a CLA-enabled repository, the CLA check will
+guide you through explicitly accepting the current e-dialect ICLA. These
+checkboxes are provenance confirmations; they are not the CLA signature.
+
 ## Known risks
 
 <!-- 最可能出错的地方、影响范围与回退方式。 -->
