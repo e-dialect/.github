@@ -1,7 +1,7 @@
 # CLA Assistant Setup
 
-Status: **ICLA Version 1.0 is active for `e-dialect/.github`; expansion to
-other repositories remains pending under issue #6.**
+Status: **ICLA Version 1.0 is active for `e-dialect/.github`,
+`e-dialect/xiangsheng-box`, and `e-dialect/wanyu-proofreader`.**
 
 ## Agreement identity
 
@@ -190,6 +190,8 @@ Gist revision, and the check name observed in the test pull request.
 | Repository | CLA version | Enabled at | ICLA repository commit | Gist revision | CLA check name |
 |---|---|---|---|---|---|
 | `e-dialect/.github` | `1.0` | `2026-09-15T11:09:51Z` | `26f24cb518d6bc03d26b8f27c64e172ff3988d33` | `b41fb7e4f5a53d57092b133757bdc23c92a417a0` | `license/cla` |
+| `e-dialect/xiangsheng-box` | `1.0` | `2026-09-16T16:20:15Z` | `26f24cb518d6bc03d26b8f27c64e172ff3988d33` | `b41fb7e4f5a53d57092b133757bdc23c92a417a0` | `license/cla` |
+| `e-dialect/wanyu-proofreader` | `1.0` | `2026-09-16T16:20:15Z` | `26f24cb518d6bc03d26b8f27c64e172ff3988d33` | `b41fb7e4f5a53d57092b133757bdc23c92a417a0` | `license/cla` |
 
 ## Multi-author Contributions
 
